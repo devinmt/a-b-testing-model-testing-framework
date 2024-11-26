@@ -1,0 +1,9 @@
+Starting evaluation of Phi-2 4bit...
+Error during evaluation: Using `low_cpu_mem_usage=True` or a `device_map` requires Accelerate: `pip install 'accelerate>=0.26.0'`
+Traceback (most recent call last):
+  File "/Users/devinmonythomas/a-b-testing-model-testing-framework/test.py", line 34, in <module>
+    run_sample_evaluation()
+  File "/Users/devinmonythomas/a-b-testing-model-testing-framework/test.py", line 31, in run_sample_evaluation
+    wandb.finish()
+    ^^^^^
+NameError: name 'wandb' is not defined

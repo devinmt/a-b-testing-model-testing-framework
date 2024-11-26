@@ -1,0 +1,13 @@
+README.md: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 9.59k/9.59k [00:00<00:00, 6.27MB/s]
+validation-00000-of-00001.parquet: 100%|██████████████████████████████████████████████████████████████████████| 271k/271k [00:00<00:00, 3.13MB/s]
+Generating validation split: 100%|███████████████████████████████████████████████████████████████████| 817/817 [00:00<00:00, 37323.11 examples/s]
+Starting evaluation of Phi-2 4bit...
+config.json: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 735/735 [00:00<00:00, 1.46MB/s]
+Error during evaluation: Using `low_cpu_mem_usage=True` or a `device_map` requires Accelerate: `pip install 'accelerate>=0.26.0'`
+Traceback (most recent call last):
+  File "/Users/devinmonythomas/a-b-testing-model-testing-framework/test.py", line 34, in <module>
+    run_sample_evaluation()
+  File "/Users/devinmonythomas/a-b-testing-model-testing-framework/test.py", line 31, in run_sample_evaluation
+    wandb.finish()
+    ^^^^^
+NameError: name 'wandb' is not defined
